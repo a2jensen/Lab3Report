@@ -1,5 +1,5 @@
 # Grep Command
--The grep command is used in the searching and matching text files contained in the expression, where it filters text files based on your input. The command can search for exact matches, partial matches, or patterns using regular expressions. These 4 alternative ways of using the grep command below will show how you can specifically edit the outputs you desire.
+The grep command is used in the searching and matching text files contained in the expression, where it filters text files based on your input. The command can search for exact matches, partial matches, or patterns using regular expressions. These 4 alternative ways of using the grep command below will show how you can specifically edit the outputs you desire.
 
 # '-i' option 
 This option tells 'grep' to perform a case-insensitive search. For example, inputting in "bye" will return 
