@@ -7,7 +7,7 @@ ALL lines that contain bye, BYE, ByE, etc. This is useful for when you are searc
 
 Source: I used the help of chatgpt and asked it for alternative grep commands. It provided me with the -i option and I was able to test it successfully in Visual Studio code.
 
-   ## Example 1:
+   Example 1:
    The file we will be using for this example is "./pmed.0020191.txt"
    
    Our input line:
@@ -27,7 +27,7 @@ Source: I used the help of chatgpt and asked it for alternative grep commands. I
    The input in the command line "tHe", will still return all lines in the file that include "the", "tHe", "THE".
    
    
-   ## Example 2:
+   Example 2:
    The file we will be using for this example is "rr74.txt" in biomed
    
    Our input line:
@@ -65,7 +65,7 @@ This option tells 'grep' to show all lines in the text file that do not contain 
 Source:
 [JavaRevisited](https://javarevisited.blogspot.com/2011/06/10-examples-of-grep-command-in-unix-and.html#axzz80oUFELM8)
    
-   ## Example 1:
+   Example 1:
    The file we will be using for this example is "rr74.txt"
    
    Our input line:
@@ -101,7 +101,7 @@ Source:
    The input in the command line returns all lines in the file that do not contain the letter "a".
    
    
-   ## Example 2:
+   Example 2:
    The file we will be using for this example is "rr74.txt" in biomed
    
    Our input line:
@@ -142,7 +142,7 @@ This option enables the use of extended regular expressions when using the grep 
  
 Source: I also used chatgpt where it provided the -e option as an alternative way of using the grep method. I also tested it out in the Visual Studio terminal and it worked successfully.
 
-   ## Example 1:
+   Example 1:
    The file we will be using for this example is "cc4.txt"
    
    Our input line:
@@ -174,7 +174,7 @@ Source: I also used chatgpt where it provided the -e option as an alternative wa
    With inputs of extended expressions, the output are the lines in the file that contain 'MPAP'.
    
    
-   ## Example 2:
+   Example 2:
    The file we will be using for this example is "cc4.txt" in biomed
    
    Our input line:
@@ -224,7 +224,7 @@ This option will print the number of lines that includes the expression given. T
 
 Source: [JavaRevisted](https://javarevisited.blogspot.com/2011/06/10-examples-of-grep-command-in-unix-and.html#axzz80oUFELM8)
    
-   ## Example 1:
+   Example 1:
    The file we will be using for this example is "rr74.txt"
    
    Our input line:
@@ -239,7 +239,7 @@ Source: [JavaRevisted](https://javarevisited.blogspot.com/2011/06/10-examples-of
    With inputs of 'a', this returns the number of lines which include a in the file which is 351.
    
    
-   ## Example 2:
+   Example 2:
    The file we will be using for this example is "cc4.txt" in biomed
    
    Our input line:
