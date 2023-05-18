@@ -5,8 +5,20 @@ The grep command is used in the searching and matching text files contained in t
 This option tells 'grep' to perform a case-insensitive search. For example, inputting in "bye" will return 
 ALL lines that contain bye, BYE, ByE, etc. This is useful for when you are searching for a pattern in a file, but your not sure if there is any capitlization or not. It pretty much broadens your answers.
 
-Source: I used the help of chatgpt and asked it for alternative grep commands. It provided me with the -i option and I was able to test it successfully in Visual Studio code.
+Source: I used the help of chatgpt and asked it for alternative grep commands. 
 
+ChatGPT prompt: What are alternative grep options?
+
+ChatGPT output:
+```
+'grep' provides various options that allow you to customize the search behavior. Here are some alternative options commonly used with grep:
+
+-i or --ignore-case: This option enables case-insensitive search. It will match patterns regardless of the letter case. For example, grep -i "example" file.txt will match lines containing "example", "Example", "EXAMPLE", and so on.
+
+-v or --invert-match: This option inverts the match, causing grep to print lines that do not match the specified pattern. For example, grep -v "example" file.txt will print all lines in "file.txt" that do not contain the word "example".
+
+-l or --files-with-matches: This option displays only the names of the files that contain the matching pattern, rather than printing the matching lines themselves. It is useful when you only want to know which files contain a specific pattern. For example, grep -l "example" *.txt will display the names of all text files in the current directory that contain the word "example".
+```
    Example 1:
    The file we will be using for this example is "./pmed.0020191.txt"
    
@@ -140,7 +152,22 @@ Source:
 # '-e' option
 This option enables the use of extended regular expressions when using the grep command. This option is useful in a variety of ways, such as using the or "|" command to find two words/patterns.
  
-Source: I also used chatgpt where it provided the -e option as an alternative way of using the grep method. I also tested it out in the Visual Studio terminal and it worked successfully.
+Source: I also used chatgpt where it provided the -e option as an alternative way of using the grep method.
+
+
+ChatGPT prompt: Any other grep options?
+
+ChatGPT output:
+```
+The -e option in the grep command allows you to specify multiple patterns to search for. It is particularly useful when you want to search for lines that match any of the specified patterns.
+
+Here's an example usage:
+
+perl
+Copy code
+grep -e pattern1 -e pattern2 file.txt
+In the above command, grep will search for lines in "file.txt" that contain either "pattern1" or "pattern2" and display the matching lines.
+```
 
    Example 1:
    The file we will be using for this example is "cc4.txt"
